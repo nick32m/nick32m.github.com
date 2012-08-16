@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: Nick Luo's Homepage
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
@@ -14,7 +14,6 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 In `_config.yml` remember to specify your own data:
     
     title : My Blog =)
-    
     author :
       name : Name Lastname
       email : blah@email.test
