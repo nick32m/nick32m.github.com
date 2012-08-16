@@ -12,11 +12,11 @@ pygments: true
 title : Liwei Luo
 tagline: Site Tagline
 author :
-  name : Name Lastname
+  name : Nick Luo
   email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  github : nick32m
+  twitter : @nick32m
+  # feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

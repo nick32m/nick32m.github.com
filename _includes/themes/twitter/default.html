@@ -31,12 +31,26 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
+           <button type="button"class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-          <ul class="nav">
-            {% assign pages_list = site.pages %}
-            {% assign group = 'navigation' %} 
-            {% include JB/pages_list %}
-          </ul>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              
+              {% if page.url == '/index.html' %} 
+                <li class="active"> <a href='{{BASE_PATH}}/index.html' class="active"> Home </a> </li>
+              {% else %}
+                <li> <a href='/index.html' class="active"> Home </a> </li>
+              {% endif %}
+
+              {% assign pages_list = site.pages %}
+              {% assign group = 'navigation' %} 
+              {% include JB/pages_list %}
+            </ul>
+          </div>  
         </div>
       </div>
     </div>
@@ -57,5 +71,26 @@
     </div> <!-- /container -->
 
     {% include JB/analytics %}
+
+
+        <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/jquery.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/google-code-prettify/prettify.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-transition.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-alert.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-modal.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-dropdown.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-scrollspy.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-tab.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-tooltip.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-popover.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-button.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-collapse.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-carousel.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-typeahead.js"></script>
+    <script src="{{ ASSET_PATH }}/bootstrap/js/application.js"></script>
   </body>
 </html>
