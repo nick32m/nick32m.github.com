@@ -13,7 +13,7 @@ title : Liwei Luo
 tagline: Site Tagline
 author :
   name : Nick Luo
-  email : blah@email.test
+  email : nick.luo@me.com
   github : nick32m
   twitter : @nick32m
   # feedburner : feedname
@@ -99,7 +99,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-34153154-1'
     getclicky :
       site_id : 
     mixpanel :
