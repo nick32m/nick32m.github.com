@@ -11,7 +11,7 @@ theme :
   <div class="row">
     <div class = "span4">
       <!-- put my image here -->
-      <img class ="bs-icon" src="{{ ASSET_PATH }}/photos/profile.jpg">
+      <img class ="bs-icon" src="{{ ASSET_PATH }}/photos/nick.jpg">
     </div>
     <div class="span8">
       <div class="hero-unit">
