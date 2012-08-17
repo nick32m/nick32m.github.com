@@ -7,5 +7,5 @@ tags: []
 ---
 
 {% include JB/setup %}
-
-this is a hello again
+hello again
+{{ASSET_PATH}}

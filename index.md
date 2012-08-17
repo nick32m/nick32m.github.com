@@ -1,13 +1,25 @@
 ---
 layout: page
-title: Nick Luo's Homepage
-tagline: Supporting tagline
+title: Welcome
+tagline: nick.luo@me.com
+theme :
+  name : twitter
 ---
 {% include JB/setup %}
 
 <div class ="marketing">
   <div class="row">
-    
+    <div class = "span4">
+      <!-- put my image here -->
+      <img class ="bs-icon" src="{{ ASSET_PATH }}/photos/profile.jpg">
+    </div>
+    <div class="span8">
+      <div class="hero-unit">
+        <p> 
+          Hi I am Nick Luo, I am a software engineer/developer, specialised in and have great interstes in web application , mobile application development 
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 
