@@ -24,7 +24,7 @@ theme :
           </h2>
         </div>
         <p> 
-          Hi I am Nick Luo, I am a passionate software software engineer/developer currently residing in Brisbane, Australia. In my current work, I am specialised in developing secure web applications ,iPhone/iPad applications development. I also have great interests on the following areas:
+          Hi I am Nick Luo, I am a passionate software engineer/developer currently residing in Brisbane, Australia. In my current work, I am specialised in developing secure web applications ,iPhone/iPad applications development. I also have great interests on the following areas:
         </p>
         <ul>
           <li> <p> Algorithms designed and implementation </p> </li>
