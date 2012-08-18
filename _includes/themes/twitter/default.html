@@ -11,7 +11,12 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+     <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -37,7 +42,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-          <div class="nav-collapse collapse">
+          <div class="nav-collapse">
             <ul class="nav">
               
               {% if page.url == '/index.html' %} 
@@ -57,7 +62,7 @@
 
     <div class="container">
 
-      <div class="content">
+      <div class="content">  
         {{ content }}
       </div>
 

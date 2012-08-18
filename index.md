@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome
+title: Nick Luo
 tagline: nick.luo@me.com
 theme :
   name : twitter
@@ -14,9 +14,30 @@ theme :
       <img class ="bs-icon" src="{{ ASSET_PATH }}/photos/nick.jpg">
     </div>
     <div class="span10">
-      <div class="hero-unit">
+      <div class="hero-unit" style="padding:20px">
+        <div class= "page-header" style="clear:both">
+          <h2>
+            {{ page.title }} 
+            {% if page.tagline %} 
+              <small>{{ page.tagline }}</small>
+            {% endif %}
+          </h2>
+        </div>
         <p> 
-          Hi I am Nick Luo, I am a software engineer/developer, specialised in and have great interstes in web application , mobile application development 
+          Hi I am Nick Luo, I am a passionate software software engineer/developer currently residing in Brisbane, Australia. In my current work, I am specialised in developing secure web applications ,iPhone/iPad applications development. I also have great interests on the following areas:
+        </p>
+        <ul>
+          <li> <p> Algorithms designed and implementation </p> </li>
+          <li> <p>Scaling web applications (Although I don't have experience on it) </p></li>
+          <li> <p> Solve chanllenging problems</p> </li>
+        </ul>
+
+        <p> 
+          I am also a great fan of Apple. I use iMac at work and Macbook Pro at home. I use sublime text on programming. I have a great exposure to Apple's Cocoa Framework and really like the design patterns and the extra (NS) libraries it has added to Objective-C language , makes a very enjoyable experience to program on iOS/OSX platform.
+        </p>
+
+        <p> 
+          I am also a big fan of open source software. In my own time, I love exposuring Github and see what has been happening in the open source community.
         </p>
       </div>
     </div>
