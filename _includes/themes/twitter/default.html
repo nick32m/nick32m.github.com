@@ -46,9 +46,9 @@
             <ul class="nav">
                
               {% if page.url == '/index.html' %} 
-                <li class="active"> <a href='{{BASE_PATH}}/index.html' class="active"> Home </a> </li>
+                <li class="active"> <a href='{{BASE_PATH}}' class="active"> Home </a> </li>
               {% else %}
-                <li> <a href='/index.html' class="active"> Home </a> </li>
+                <li> <a href='{{HOME_PATH}}' class="active"> Home </a> </li>
               {% endif %}
 
               {% assign pages_list = site.pages %}
