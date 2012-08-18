@@ -9,11 +9,11 @@ theme :
 
 <div class ="marketing">
   <div class="row">
-    <div class = "span4">
+    <div class = "span2">
       <!-- put my image here -->
       <img class ="bs-icon" src="{{ ASSET_PATH }}/photos/nick.jpg">
     </div>
-    <div class="span8">
+    <div class="span10">
       <div class="hero-unit">
         <p> 
           Hi I am Nick Luo, I am a software engineer/developer, specialised in and have great interstes in web application , mobile application development 
