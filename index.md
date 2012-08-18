@@ -9,11 +9,11 @@ theme :
 
 <div class ="marketing">
   <div class="row">
-    <div class = "span2">
+    <div class = "span3">
       <!-- put my image here -->
       <img class ="bs-icon" src="{{ ASSET_PATH }}/photos/nick.jpg">
     </div>
-    <div class="span10">
+    <div class="span9">
       <div class="hero-unit" style="padding:20px">
         <div class= "page-header" style="clear:both">
           <h2>
