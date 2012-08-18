@@ -11,24 +11,24 @@ theme :
   <div class="row">
     <div class = "span3">
       <!-- put my image here -->
-      <img class ="bs-icon" src="{{ ASSET_PATH }}/photos/nick.jpg">
+      <img class ="bs-icon" src="{{ ASSET_PATH }}/photos/nick.jpg" alt="Nick Luo">
     </div>
     <div class="span9">
       <div class="hero-unit" style="padding:20px">
-        <div class= "page-header" style="clear:both">
+<!--         <div class= "page-header">
           <h2>
             {{ page.title }} 
             {% if page.tagline %} 
               <small>{{ page.tagline }}</small>
             {% endif %}
           </h2>
-        </div>
+        </div> -->
         <p> 
           Hi I am Nick Luo, I am a passionate software engineer/developer currently residing in Brisbane, Australia. In my current work, I am specialised in developing secure web applications ,iPhone/iPad applications development. I also have great interests on the following areas:
         </p>
         <ul>
           <li> <p> Algorithms designed and implementation </p> </li>
-          <li> <p>Scaling web applications (Although I don't have experience on it) </p></li>
+          <li> <p>Scaling web applications (Although I don't have experience on it,yet) </p></li>
           <li> <p> Solve chanllenging problems</p> </li>
         </ul>
 
@@ -39,6 +39,14 @@ theme :
         <p> 
           I am also a big fan of open source software. In my own time, I love exposuring Github and see what has been happening in the open source community.
         </p>
+        <br/>
+
+        <a href="https://github.com/nick32m/"><img alt="Nick Luo  @ Github" src="{{ ASSET_PATH }}/images/github.png" /></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <!-- My google+ profile -->
+        <a href="https://github.com/nick32m/"><img alt="Nick Luo  @ Google+" src="{{ ASSET_PATH }}/images/google-plus.png" /></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;  
+
       </div>
     </div>
   </div>
