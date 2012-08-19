@@ -9,7 +9,7 @@ theme :
 
 <div class ="marketing">
   <div class="row">
-    <div class = "span2">
+    <div class = "span3">
       <!-- put my image here -->
       <img class ="bs-icon" src="{{ ASSET_PATH }}/photos/nick.jpg" alt="Nick Luo">
 
@@ -17,7 +17,7 @@ theme :
         <li> <a href=""> i </a> </li>
       </ul> -->
     </div>
-    <div class="span10">
+    <div class="span9">
       <div class="hero-unit" style="padding:20px">
 <!--         <div class= "page-header">
           <h2>
@@ -57,7 +57,7 @@ theme :
             </a>
           </div>
 
-          <div class="span2" style="margin-left:10px">
+          <div class="span2" style="margin-left:20px">
              <a href="https://twitter.com/nick32m" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @nick32m 
             </a>
           </div>
