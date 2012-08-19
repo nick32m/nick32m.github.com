@@ -9,11 +9,15 @@ theme :
 
 <div class ="marketing">
   <div class="row">
-    <div class = "span3">
+    <div class = "span2">
       <!-- put my image here -->
       <img class ="bs-icon" src="{{ ASSET_PATH }}/photos/nick.jpg" alt="Nick Luo">
+
+<!--       <ul class="socialicons">
+        <li> <a href=""> i </a> </li>
+      </ul> -->
     </div>
-    <div class="span9">
+    <div class="span10">
       <div class="hero-unit" style="padding:20px">
 <!--         <div class= "page-header">
           <h2>
@@ -23,6 +27,7 @@ theme :
             {% endif %}
           </h2>
         </div> -->
+        <h2> About me </h2>
         <p> 
           Hi I am Nick Luo, I am a passionate software engineer/developer currently residing in Brisbane, Australia. In my current work, I am specialised in developing secure web applications ,iPhone/iPad applications development. I also have great interests on the following areas:
         </p>
@@ -41,17 +46,49 @@ theme :
         </p>
         <br/>
 
-        <a href="https://github.com/nick32m/"><img alt="Nick Luo  @ Github" src="{{ ASSET_PATH }}/images/github.png" /></a>
-          &nbsp;&nbsp;&nbsp;&nbsp;
-          <!-- My google+ profile -->
-        <a href="https://github.com/nick32m/"><img alt="Nick Luo  @ Google+" src="{{ ASSET_PATH }}/images/google-plus.png" /></a>
-          &nbsp;&nbsp;&nbsp;&nbsp;  
+        <div class="row">
+          <div class="span1">
+             <a href="https://github.com/nick32m/"><img alt="Nick Luo  @ Github" src="{{ ASSET_PATH }}/images/github.png" /></a>
+          </div>
 
+          <div class="span2">
+             <a href="http://au.linkedin.com/pub/nick-luo/38/829/748">
+                <img src="http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Nick Luo's profile on LinkedIn">
+            </a>
+          </div>
+
+          <div class="span2" style="margin-left:10px">
+             <a href="https://twitter.com/nick32m" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @nick32m 
+            </a>
+          </div>
+           <div class="span1" style="margin-left:0px">
+             <!-- <a href="https://github.com/nick32m/"><img alt="Nick Luo  @ Google+" src="{{ ASSET_PATH }}/images/google-plus.png" /></a> -->
+
+             <!-- Place this code where you want the badge to render. -->
+            <a href="//plus.google.com/109304259444226563362?prsrc=3" rel="publisher" style="text-decoration:none;">
+            <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Nick Luo's Google+" style="border:0;width:32px;height:32px;"/></a>
+          </div> 
+         
+        </div>
+
+   <!--      <a href="https://github.com/nick32m/"><img alt="Nick Luo  @ Github" src="{{ ASSET_PATH }}/images/github.png" /></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+      
+        <a href="https://github.com/nick32m/"><img alt="Nick Luo  @ Google+" src="{{ ASSET_PATH }}/images/google-plus.png" /></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+         <a href="http://au.linkedin.com/pub/nick-luo/38/829/748">
+          <img src="http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Nick Luo's profile on LinkedIn">
+        </a> &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;     
+
+        <a href="https://twitter.com/nick32m" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @nick32m 
+        </a>
+         -->
+        
       </div>
     </div>
   </div>
 </div>
-
 <!-- Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)

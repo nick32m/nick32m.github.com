@@ -68,4 +68,26 @@ html, body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
+
+ul.socialicons {
+	font-family: Socialico;
+	list-style-type: none;
+}
+
+ul.socialicons li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 1px 0 0;
+}
+ul.socialicons li a {
+    color: #0088CC;
+    font-size: 50px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Socialico";
+    src: url("Socialico.otf") format("opentype");
+}
 	
