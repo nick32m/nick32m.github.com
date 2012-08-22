@@ -9,7 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Liwei Luo
+title : Nick Luo
 tagline: Site Tagline
 author :
   name : Nick Luo
@@ -18,6 +18,7 @@ author :
   twitter : @nick32m
   # feedburner : feedname
 
+description: Nick Luo Home Page
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
