@@ -5,7 +5,7 @@ tagline: nick.luo@me.com
 theme :
   name : twitter
 description: Nick Luo's Home Page
-keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, passionate software developer, passionate software engineer, python/django developer, iOS developer, iphone developer , web application developer
+keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, nick luo github, nick luo github page, passionate software developer, passionate software engineer, python/django developer, iOS developer, iphone developer , web application developer
 
 ---
 {% include JB/setup %}
@@ -14,7 +14,7 @@ keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, passio
   <div class="row">
     <div class = "span3">
       <!-- put my image here -->
-      <img class ="bs-icon" src="{{ ASSET_PATH }}/photos/nick.jpg" alt="Nick Luo">
+      <img class ="img-rounded" src="{{ ASSET_PATH }}/photos/nick.jpg" alt="Nick Luo">
 
 <!--       <ul class="socialicons">
         <li> <a href=""> i </a> </li>
@@ -37,7 +37,7 @@ keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, passio
         <ul>
           <li> <p> Algorithms designed and implementation </p> </li>
           <li> <p>Scaling web applications (Although I don't have experience on it,yet) </p></li>
-          <li> <p> Solve chanllenging problems</p> </li>
+          <li> <p> Solve challenging problems</p> </li>
         </ul>
 
         <p> 

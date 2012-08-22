@@ -17,8 +17,6 @@ author :
   github : nick32m
   twitter : @nick32m
   # feedburner : feedname
-
-description: Nick Luo Home Page
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
