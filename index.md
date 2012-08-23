@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nick Luo
+title: nick32m.github.com: Nick Luo Homepage
 tagline: nick.luo@me.com
 theme :
   name : twitter
