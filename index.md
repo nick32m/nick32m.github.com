@@ -12,7 +12,7 @@ keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, nick l
 
 <div class ="marketing">
   <div class="row">
-    <div class = "span3">
+    <div class = "span2">
       <!-- put my image here --> 
       <img class ="img-rounded" src="{{ ASSET_PATH }}/photos/nick.jpg" alt="Nick Luo">  
 <!--       <ul class="socialicons">
@@ -21,7 +21,7 @@ keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, nick l
     </div>
 
 
-    <div class="span9">
+    <div class="span7">
       <!-- <div class="hero-unit" style="padding:20px"> -->
 <!--         <div class= "page-header">
           <h2>
@@ -31,49 +31,24 @@ keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, nick l
             {% endif %}
           </h2>
         </div> -->
-        <h2> About me </h2>
-        <p> 
-          Hi I am Nick Luo, I am a passionate software engineer/developer currently residing in Brisbane, Australia. In my current work, I am specialised in developing secure web applications ,iPhone/iPad applications development. I also have great interests on the following areas:
-        </p>
-        <ul>
-          <li> <p> Algorithms designed and implementation </p> </li>
-          <li> <p>Scaling web applications (Although I don't have experience on it,yet) </p></li>
-          <li> <p> Solve challenging problems</p> </li>
-        </ul>
-
-        <p> 
-          I am also a great fan of Apple. I use iMac at work and Macbook Pro at home. I use sublime text on programming. I have a great exposure to Apple's Cocoa Framework and really like the design patterns and the extra (NS) libraries it has added to Objective-C language , makes a very enjoyable experience to program on iOS/OSX platform.
-        </p>
-
-        <p> 
-          I am also a big fan of open source software. In my own time, I love exposuring Github and see what has been happening in the open source community.
+        <p class="description"> 
+          Hi I am Nick Luo. I am a passionate software developer. I love making software. 
+          <br/>In my spare time, I like to learn new technologies participate programming contests in interviewstreeet.com. I love eating sushi too. You could find out more about me at: 
         </p>
         <br/>
-
-        <div class="row">
-          <div class="span1">
-             <a href="https://github.com/nick32m/"><img alt="Nick Luo @ Github" src="{{ ASSET_PATH }}/images/github.png" /></a>
+        <div class= "row-fluid">
+          <div class="span3">
+            <button class="btn btn-primary btn-large "> <b> More about Me </b></button> 
           </div>
-
-          <div class="span2">
-             <a href="http://au.linkedin.com/pub/nick-luo/38/829/748">
-                <img src="http://www.linkedin.com/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Nick Luo's profile on LinkedIn">
-            </a>
+          <div class="span6 offset2">
+            <ul class="socialicons">
+              <li> <a data-icon="!" href=""> </a> </li>
+              <li> <a data-icon='$' href="https://github.com/nick32m/"> </a> </li>
+              <li> <a data-icon="&#x22;" href="">  </a> </li>
+              <li> <a data-icon="&#x26;" href="">  </a> </li>
+            </ul>
           </div>
-
-          <div class="span2" style="margin-left:20px">
-             <a href="https://twitter.com/nick32m" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @nick32m 
-            </a>
-          </div>
-           <div class="span1" style="margin-left:0px">
-             <!-- <a href="https://github.com/nick32m/"><img alt="Nick Luo  @ Google+" src="{{ ASSET_PATH }}/images/google-plus.png" /></a> -->
-
-             <!-- Place this code where you want the badge to render. -->
-            <a href="//plus.google.com/109304259444226563362?prsrc=3" rel="publisher" style="text-decoration:none;">
-            <img src="//ssl.gstatic.com/images/icons/gplus-32.png" alt="Nick Luo's Google+" style="border:0;width:32px;height:32px;"/></a>
-          </div> 
-         
-        </div>
+        </div>        
      <!-- </div> -->
     </div>
   </div>
@@ -94,14 +69,14 @@ keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, nick l
          -->
         
  
- <div class="row" style="margin-top: 5%;">
-  <div class="span12">
-    <h2> &raquo; Recent Blog Posts </h2>
+ <div class="row">
+  <div class="span9 offset2">
+    <h3> <!--&raquo; --> Recent Blog Posts </h3>
     <ul class ="posts">
       {% for post in site.posts limit:5 %}
           <li style="line-height: 12px">
             <h5><span>{{ post.date | date_to_string }}</span></h5> <!-- &raquo; --> 
-            <h4>&raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h4>
+            <p>&raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></p>
 
           </li>
       {% endfor %}
