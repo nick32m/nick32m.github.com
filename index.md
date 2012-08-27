@@ -38,7 +38,7 @@ keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, nick l
         <br/>
         <div class= "row-fluid">
           <div class="span3">
-            <button class="btn btn-primary btn-large "> <b> More about Me </b></button> 
+            <button class="btn btn-primary btn-large "><b> More about Me </b></button> 
           </div>
           <div class="span6 offset2">
             <ul class="socialicons">

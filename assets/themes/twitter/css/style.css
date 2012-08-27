@@ -1,7 +1,12 @@
 /* Override some defaults */
 html, body {
   /*background-color: #eee ;*/
-  background:#eee url(bg.jpg) repeat;
+  background:#eee url(bg.jpg) no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .navbar {
   margin-bottom: 0;
@@ -19,9 +24,9 @@ html, body {
   background-color: #DBDBDB;
   padding: 20px;
   margin: 0 auto; /* negative indent the amount of the padding to maintain the grid system */
-  -webkit-border-radius: 8px;
-     -moz-border-radius: 8px;
-          border-radius: 8px;
+  -webkit-border-radius: 0 0 8px 8px;
+     -moz-border-radius: 0 0 8px 8px;
+          border-radius: 0 0 8px 8px;
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
      -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
           box-shadow: 0 1px 2px rgba(0,0,0,.15);
