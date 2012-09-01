@@ -20,7 +20,7 @@ html, body {
 
 /* The white background content wrapper */
 .content {
-  max-width: 940px;
+  /*max-width: 980px;*/
   background-color: #DBDBDB;
   padding: 20px;
   margin: 0 auto; /* negative indent the amount of the padding to maintain the grid system */
@@ -37,7 +37,7 @@ p.description{
   font-family: "Vollkorn", sans-serif;
 }
 .strech-well {
-  max-width: 940px;
+  /*max-width: 940px;*/
   margin: 0 auto
 }
 /* Page header tweaks */
@@ -85,14 +85,16 @@ p.description{
 }
 
 ul.socialicons {
+  /*margin: 0 auto;*/
 	font-family: icomoon;
 	list-style: none;
+  /*margin-left: 0;*/
 }
 
 ul.socialicons li {
     display: inline;
     list-style: none;
-    padding: 0 1px 0 0;
+    padding: 0 0 0 0;
 }
 ul.socialicons li a {
     color: #505050;
@@ -101,6 +103,33 @@ ul.socialicons li a {
     text-decoration: none;
 }
 
+img.profile {
+  /*padding-left: 15%;*/
+  /*margin-left: 8%;*/
+  margin-bottom: 8%;
+}
+
+.homepage {
+  padding-bottom: 5%;
+}
+
+.contactme {
+  margin-top: 4%;
+}
+
+#intro h1 {
+    font-size: 2.3em;
+    font-weight: 300;
+    line-height: 1.5;
+}
+#intro p {
+  font-size: 1.3em;
+  /*margin-bottom:10px;*/
+  line-height: 2.5;
+}
+#intro button {
+  margin-left: 10 0 20px 30px;
+}
 /*@font-face {
     font-family: "Socialico";
     src: url("Socialico.otf") format("opentype");

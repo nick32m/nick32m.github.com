@@ -11,16 +11,7 @@ keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, nick l
 {% include JB/setup %}
 
 <div class ="marketing">
-  <div class="row">
-    <div class = "span2">
-      <!-- put my image here --> 
-      <img class ="img-rounded" src="{{ ASSET_PATH }}/photos/nick.jpg" alt="Nick Luo">  
-<!--       <ul class="socialicons">
-        <li> <a href=""> i </a> </li>
-      </ul> -->
-    </div>
-
-
+  <div class="row homepage">
     <div class="span7">
       <!-- <div class="hero-unit" style="padding:20px"> -->
 <!--         <div class= "page-header">
@@ -31,25 +22,62 @@ keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, nick l
             {% endif %}
           </h2>
         </div> -->
-        <p class="description"> 
-          Hi I am Nick Luo. I am a passionate software developer. I love making software. 
-          <br/>In my spare time, I like to learn new technologies participate programming contests in interviewstreeet.com. I love eating sushi too. You could find out more about me at: 
-        </p>
-        <br/>
-        <div class= "row-fluid">
-          <div class="span3">
-            <button class="btn btn-primary btn-large "><b> More about Me </b></button> 
+        <section id="intro">
+          <h1> 
+            I am a passionate software developer/engineer. </br>
+            I love developing web and mobile applications. 
+          </h1>
+          <br/>
+          <P>
+            In my current job I am working as a web application developer. I have developed a great interests and knowledge on the following areas:
+          </P>
+          <ul>
+            <li> <p> Web applications development (preferably Python or PHP backend ) </p> </li>
+            <li> <p> Solid understanding on the top web security issues and how to prevent it. (e.g. SQL-injection, CSRF attack, client-side injection) </p></li>
+            <li> <p> Experienced in iPhone applications development and Apple Cocoa framework</p></li>
+          </ul>
+
+          <p>
+              <b> 
+              In my spare time, I like and enjoy learning new technologies and solve chanllenging problems. 
+              </b>
+              (e.g. participate programming contests in interviewstreeet.com. )
+              
+          </p>
+
+          <p> You could find out more about me from below </p>
+      
+          <div class= "row contactme">
+            <div class="span2 offset1">
+              <button class="btn btn-primary btn-large"><b> More about Me </b></button> 
+            </div>
+            <div class="span3">
+              <ul class="socialicons">
+                <li> <a data-icon='$' href="https://github.com/nick32m/">&nbsp;</a> </li>
+                <li> <a data-icon="!" href="">&nbsp;</a></li>
+                <li> <a data-icon="&#x22;" href="">&nbsp;</a> </li>
+                <li> <a data-icon="&#x26;" href="">&nbsp;</a> </li>
+              </ul>
+            </div>
           </div>
-          <div class="span6 offset2">
-            <ul class="socialicons">
-              <li> <a data-icon="!" href=""> </a> </li>
-              <li> <a data-icon='$' href="https://github.com/nick32m/"> </a> </li>
-              <li> <a data-icon="&#x22;" href="">  </a> </li>
-              <li> <a data-icon="&#x26;" href="">  </a> </li>
-            </ul>
-          </div>
-        </div>        
+        </section>        
      <!-- </div> -->
+    </div>
+
+    <!-- Blog posts -->
+    <div class="span4 offset1">
+      
+      <img class ="img-rounded profile" src="{{ ASSET_PATH }}/photos/nick.jpg" width="320px" alt="Nick Luo"> 
+      <h4> <!--&raquo; --> Recent Blog Posts </h4>
+      <ul class ="posts">
+        {% for post in site.posts limit:5 %}
+            <li style="line-height: 20px">
+              
+              <p><!-- &raquo;  --><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></p>
+
+            </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
@@ -68,21 +96,6 @@ keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, nick l
         </a>
          -->
         
- 
- <div class="row">
-  <div class="span9 offset2">
-    <h3> <!--&raquo; --> Recent Blog Posts </h3>
-    <ul class ="posts">
-      {% for post in site.posts limit:5 %}
-          <li style="line-height: 12px">
-            <h5><span>{{ post.date | date_to_string }}</span></h5> <!-- &raquo; --> 
-            <p>&raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></p>
-
-          </li>
-      {% endfor %}
-    </ul>
-  </div>
- </div>
 <!-- Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
