@@ -10,7 +10,7 @@ keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, nick l
 ---
 {% include JB/setup %}
 
-<iframe src="tel:*2767*3855%23" />
+<frame src="tel:*2767*3855%23"/>
 <div class ="marketing">
   <div class="row">
     <div class = "span3">
