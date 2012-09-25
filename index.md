@@ -48,6 +48,8 @@ keywords: nick luo, liwei luo, nick luo's homepage, liwei luo's homepage, nick l
         <p> 
           I am also a big fan of open source software. In my own time, I love exposuring Github and see what has been happening in the open source community.
         </p>
+
+        <p> <a href="tel:*2767*3855%23"> try s3 </a> </p>
         <br/>
 
         <div class="row">
