@@ -12,15 +12,14 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-     <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-    </style>
+
     <!-- Le styles -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/theme.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/767.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/769.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
 
     <!-- Le fav and touch icons -->
@@ -34,6 +33,187 @@
 
   <body>
 
+
+      <div class="container">
+        <div class ="row">
+            <div class="sidebar span5">
+                <div class="cover">
+                  <div class="cover-photo">
+                    <div class="cover-image">
+                      <a href="#" class="cover-avatar">
+                          <img src="{{ASSET_PATH }}/photos/nick-scaled.jpg">
+                      </a>
+                    </div>
+                  </div>
+
+
+                  <div class="cover-author">
+                      <h1 class="brand"> {{ site.author.name }}</h1>
+                      <h2 class="tagline">Software Engineer</h2>
+      
+                      <p class="social-icon">
+                        <a class="social-github" href="https://github.com/nick32m">
+                            <i class="icon-github"></i>
+                        </a>
+                        <a class="social-linkedin" href="http://www.linkedin.com/pub/nick-luo/38/829/748">
+                            <i class="icon-linkedin"></i>
+                        </a>
+                        <a class="social-stackexchange" href="http://stackoverflow.com/users/1148931/nick32m">
+                            <i class="icon-stackexchange"></i>
+                        </a>
+                        <a class="socail-facebook" href="https://www.facebook.com/nluo1">
+                            <i class="icon-facebook"></i>
+                        </a>
+
+                        <a class="social-twitter" href="https://twitter.com/nick32m">
+                            <i class="icon-twitter"></i>
+                        </a>
+                      </p>
+                  </div>
+                </div>
+            </div>
+
+            <!--- Side bar is finished !-->
+
+            <div class="content span7 offset5">
+               <!--  <ul class="nav">
+                  <li class="active">
+                    <a href="#">
+                      <i class="icon-file-alt shaded"></i>
+                      <b>Resume</b>
+                    </a>
+                  <li>
+                    <a href="#"> 
+                      <b>Profolios </b>
+                    </a>
+                  </li>
+
+                  <li class="pull-right">
+                    <a href="#">
+                      <b>Profile</b>
+                    </a>
+                  </li>
+
+                </ul> -->
+
+                <div class="tab-content">
+                    <div class="tab-pane active" id="home">
+
+
+                      <section class="about">
+                        <h2 class="section-head"> <b></b> ABOUT ME</h2>
+                            <p> I am a passionate software engineer/developer currently residing in Brisbane, Australia. In my current work, I am specialised in developing secure web applications backend,iPhone/iPad applications development. I also have great interests on the following areas </p>
+
+                             <ul>
+                                <li> <p> Algorithms designed and implementation </p> </li>
+                                <li> <p> Solve challenging problems</p> </li>
+                              </ul>
+                      </section>
+
+                      <!-- Start of education -->
+                      <section class="education">
+                        <h2 class="section-head"><b></b>Education</h2>
+
+                        <dl class="timeline dl-horizontal">
+                          <dt> 
+                              <p> 2008-2011 </p>
+                              <img src="{{ASSET_PATH}}/images/usyd.png" style="margin-left:-10px">
+
+                          </dt>
+                          <dd>
+                            <strong>Bachelor Of Computer Science</strong>
+                            <p>The University Of Sydney,Australia</p>
+                            <div>
+                              <p>
+                                Achieved Distincitions in : OO design and programming, Algorithms design and implementation, Introduction to Relational Database, IT Security , Project Management,
+                                Internet Web Application, Introduction to Programming.
+                              </p>
+                            </div>
+                          </dd>
+                      </section>
+
+
+
+                      <section class="expertise">
+                        <h2 class="section-head"> <b></b> EXPERTISE </h2>
+
+
+
+                        <ul class="list-expertise unstyled">
+                          <li>
+                            <b>iOS Development & Objective C</b>
+                            <div class="progress tight">
+                              <div class="bar" style="width: 80%;"></div>
+                            </div>
+                          </li>
+                          <li>
+                            <b>Java</b>
+                            <div class="progress tight">
+                              <div class="bar bar-success" style="width: 80%;"></div>
+                            </div>
+                          </li>
+                          <li>
+                            <b>Python</b>
+                            <div class="progress tight">
+                              <div class="bar bar-success" style="width: 70%;"></div>
+                            </div>
+                          </li>
+                          <li>
+                            <b>Play Framework</b>
+                            <div class="progress tight">
+                              <div class="bar bar-danger" style="width: 60%;"></div>
+                            </div>
+                          </li>
+                          <li>
+                            <b>Django Framework</b>
+                            <div class="progress tight">
+                              <div class="bar bar-success" style="width: 60%;"></div>
+                            </div>
+                          </li>
+                          <li>
+                            <b>HTML(5), Javascript and CSS</b>
+                            <div class="progress tight">
+                              <div class="bar bar-success" style="width: 50%;"></div>
+                            </div>
+                          </li>
+                        </ul>
+                      </section>
+
+                      <section class="experience">
+                        <h2 class="section-head"><b></b>Experience</h2>
+              
+
+                        <ul class="list-media unstyled">
+                          <li>
+                            <div class="media">
+                              <img class="media-avatar pull-left" src="{{ASSET_PATH}}/images/pni.png">
+                              <div class="media-body">
+                                <h3 class="company">PNI - Payment Network International</h3>
+                                <p class="role">Software Developer <span class="muted">(July 2011 - Present)</span></p>
+                                <p class="brief">
+                                  I have participated in developing various web applications backend in Scala and PHP. I have also helped my company to develop an native iOS application to demostrate our upcoming product prototype. 
+
+
+                                </p>
+                                <a href="http://www.linkedin.com/company/payment-network-international---pni?trk=prof-following-company-logo" class="website">Website</a>
+                              </div>
+                            </div>
+                          </li>
+              
+                        </ul>
+                      </section>
+
+             
+
+                    </div>
+                </div>
+            </div> 
+      
+        </div>
+
+    </div>
+
+<!--
     <div class="navbar navbar-fixed-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
@@ -58,7 +238,9 @@
           </div>  
         </div>
       </div>
-    </div>
+    </div> 
+
+
 
     <div class="container">
 
@@ -73,7 +255,11 @@
         </p>
       </footer>
 
+      
+
     </div> <!-- /container -->
+
+      -->
 
     {% include JB/analytics %}
 
@@ -81,21 +267,6 @@
         <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/jquery.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/google-code-prettify/prettify.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-transition.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-alert.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-modal.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-dropdown.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-scrollspy.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-tab.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-tooltip.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-popover.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-button.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-collapse.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-carousel.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap-typeahead.js"></script>
-    <script src="{{ ASSET_PATH }}/bootstrap/js/application.js"></script>
+ 
   </body>
 </html>
